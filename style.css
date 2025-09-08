@@ -101,4 +101,58 @@ footer {
 
 footer p {
     margin: 0;
+
+}
+
+/* Nuevo estilo para la sección de proyectos */
+.projects {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #e9ecef;
+}
+
+.projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #3f51b5;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+}
+
+.project-item h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.coming-soon {
+    background-color: #f4f4f9;
+    color: #777;
+    border: 2px dashed #ccc;
+}
+
+/* Nuevo estilo para la sección "Sobre Nosotros" */
+.about {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #3f51b5;
 }
