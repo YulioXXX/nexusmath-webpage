@@ -16,7 +16,7 @@ body {
 .cta-button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #3498db;
+    background-color: #3498db; /* Azul vibrante para el botón */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -25,12 +25,12 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #2980b9;
+    background-color: #2980b9; /* Una versión más oscura del azul para el hover */
 }
 
 /* Sección de encabezado (Hero) */
 .hero {
-    background-color: #34495e;
+    background-color: #34495e; /* Fondo de encabezado */
     color: #fff;
     text-align: center;
     padding: 100px 0;
@@ -39,6 +39,7 @@ body {
 .hero h1 {
     font-size: 3em;
     margin: 0;
+    color: #3498db; /* Azul vibrante para el título principal */
 }
 
 .hero p {
@@ -56,7 +57,7 @@ body {
 .projects h2 {
     font-size: 2.5em;
     margin-bottom: 40px;
-    color: #ecf0f1;
+    color: #3498db; /* Azul vibrante para el título de proyectos */
 }
 
 .project-grid {
@@ -78,7 +79,7 @@ body {
 
 .project-item h3 {
     margin-top: 0;
-    color: #3498db;
+    color: #3498db; /* Azul vibrante para los títulos de los proyectos */
 }
 
 .coming-soon {
@@ -97,7 +98,7 @@ body {
 .about h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    color: #ecf0f1;
+    color: #3498db; /* Azul vibrante para el título "Sobre Nosotros" */
 }
 
 /* Pie de página (Footer) */
